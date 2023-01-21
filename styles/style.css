@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 :root {
@@ -9,6 +12,10 @@
     --grayish-blue: hsl(206, 6%, 79%);
     --very-dark-desaturated-violet: hsl(271, 36%, 24%);
     --dark-grayish-violet: hsl(270, 7%, 64%);
+    --white: hsl(0, 0%, 100%);
+    --light-grayish-violet: hsl(270, 20%, 96%);
+    --very-dark-desaturated-violet: hsl(271, 36%, 24%);
+    --very-light-magenta: hsl(289, 100%, 72%);
 }
 
 main {
@@ -16,6 +23,48 @@ main {
     height: 100vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+}
+
+
+.mobile {
+    width: 245px;
+    height: 505px;
+    background-color: var(--light-grayish-violet);
+}
+
+.mobile-header {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--moderate-violet);
+}
+
+.mobile-header-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-header-name {
+    font-size: 10px;
+}
+
+.mobile-header-stats {
+    font-size: 8px;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    outline: 1px solid var(--white);
+}
+
+.container-about {
+    width: 40%;
 }
 
 .attribution {
@@ -28,3 +77,4 @@ main {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+

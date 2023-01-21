@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <title>Frontend Mentor | [Challenge Name Here]</title>
 </head>
 
@@ -15,19 +19,28 @@
     <article class="container-mobile">
       <div class="mobile">
         <div class="mobile-header">
-          <span> Samuel Green </span>
+          <span class="material-symbols-outlined">
+            chevron_left
+            </span>
+          <img src="./images/avatar.jpg" alt="">
+          <div class="mobile-header-info">
+            <span class="mobile-header-name"> Samuel Green </span>
+            <p class="mobile-header-stats"> Available to Walk </p>
+          </div>
+          <span class="material-symbols-outlined">
+            more_vert
+            </span>
         </div>
-        <p> Available to Walk </p>
 
-        <p> That sounds great. I'd be happy with that. </p>
+        <p class="txt-receive"> That sounds great. I'd be happy with that. </p>
 
-        <p> Could you send over some pictures of your dog, please? </p>
+        <p class="txt-receive"> Could you send over some pictures of your dog, please? </p>
 
-        <p> Here are a few pictures. She's a happy girl! </p>
+        <p class="txt-sent"> Here are a few pictures. She's a happy girl! </p>
 
-        <p> Can you make it? </p>
+        <p class="txt-sent"> Can you make it? </p>
 
-        <p> She looks so happy! The time we discussed works. How long shall I take her out for? </p>
+        <p class="txt-receive"> She looks so happy! The time we discussed works. How long shall I take her out for? </p>
 
         <p> 30 minute walk
           <span> $29 </span>
@@ -39,13 +52,15 @@
       </div>
     </article>
 
-    <section>
-      <h1> Simple booking </h1>
-      <p>
-        Stay in touch with our dog walkers through the chat interface. This makes it easy to
-        discuss arrangements and make bookings. Once the walk has been completed you can rate
-        your walker and book again all through the chat.
-      </p>
+    <section class="container-about">
+      <div class="about">
+        <h1> Simple booking </h1>
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This makes it easy to
+          discuss arrangements and make bookings. Once the walk has been completed you can rate
+          your walker and book again all through the chat.
+        </p>
+      </div>
     </section>
   </main>
   <footer class="attribution">
