@@ -28,11 +28,11 @@ main {
     gap: 125px;
 }
 
-
 .mobile {
     width: 245px;
     height: 505px;
     background-color: var(--light-grayish-violet);
+    border-radius: 20px;
 }
 
 .mobile-header {
@@ -41,6 +41,9 @@ main {
     align-items: center;
     gap: 10px;
     background-color: var(--moderate-violet);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: var(--white);
 }
 
 .mobile-header-info {
@@ -78,3 +81,6 @@ img {
     color: hsl(228, 45%, 44%);
 }
 
+#more {
+    margin-left: 65px;
+}
