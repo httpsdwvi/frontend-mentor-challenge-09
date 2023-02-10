@@ -59,6 +59,21 @@ main {
     font-size: 8px;
 }
 
+.txt-receive-card {
+    background-color: var(--dark-grayish-violet);
+    height: auto;
+    width: 130px;
+    border-radius: 10px;
+}
+
+.txt-receive {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+
 img {
     width: 24px;
     height: 24px;
