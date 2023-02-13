@@ -16,6 +16,8 @@
     --light-grayish-violet: hsl(270, 20%, 96%);
     --very-dark-desaturated-violet: hsl(271, 36%, 24%);
     --very-light-magenta: hsl(289, 100%, 72%);
+    --light-magenta: hsl(293, 100%, 63%);
+    --light-violet: hsl(264, 100%, 61%);
 }
 
 main {
@@ -59,20 +61,42 @@ main {
     font-size: 8px;
 }
 
+/* I need to apply better pratices below */
+
 .txt-receive-card {
-    background-color: var(--dark-grayish-violet);
+    background-color: var(--pale-violet);
     height: auto;
-    width: 130px;
+    max-width: 130px;
     border-radius: 10px;
+    color: var(--moderate-violet);
 }
 
-.txt-receive {
+.txt-sent-card {
+    background-color: var(--white);
+    margin-left: 110px;
+    height: auto;
+    max-width: 130px;
+    border-radius: 10px;
+    color: var(--dark-grayish-violet);
+}
+
+.txt-receive, .txt-sent {
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 10px;
 }
+
+.txt-offer-card {
+    width: 160px;
+    height: auto;
+    background: linear-gradient(90deg, var(--light-magenta) 0%, var(--light-violet) 75%);
+    color: var(--white);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 
 img {
     width: 24px;
