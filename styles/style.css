@@ -180,6 +180,7 @@ h1 {
 
 .txt-about {
     color: var(--dark-grayish-violet);
+    margin-top: 40px;
 }
 
 .attribution a {
