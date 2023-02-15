@@ -126,6 +126,14 @@ main {
     border-radius: 10px;
 }
 
+.txt-offer {
+    margin-left: 10px;
+}
+
+.txt-offer-price {
+    margin-right: 10px;
+}
+
 span {
     font-size: 16px;
 }
@@ -148,7 +156,6 @@ span {
     margin-left: 20px;
 }
 
-
 .avatar {
     width: 24px;
     height: 24px;
@@ -160,11 +167,19 @@ span {
     width: 40%;
 }
 
+h1 {
+    color: var(--very-dark-desaturated-violet);
+}
+
 .attribution {
     margin-top: -45px;
     width: auto;
     font-size: 11px;
     text-align: center;
+}
+
+.txt-about {
+    color: var(--dark-grayish-violet);
 }
 
 .attribution a {
